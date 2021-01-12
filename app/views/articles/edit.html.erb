@@ -1,5 +1,5 @@
 <h1>
-Create new article
+Edit article
 </h1>
 
 <% if @article.errors.any? %>
@@ -13,7 +13,7 @@ Create new article
   </ul>
 <%end%>
 
-<%= form_with scope: :article, url: articles_path, local: true do |f| %>
+<%= form_with(model: @article, local: true) do |f| %>
   <p>
     <%= f.label :title %><br/><br/>
     <%= f.text_field :title %>

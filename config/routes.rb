@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  resources :articles, only: [:show, :index, :create, :new]
+  resources :articles, only: [:show, :index, :create, :new, :edit, :update]
 end
