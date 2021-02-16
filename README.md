@@ -1,5 +1,7 @@
 # README
 
+## After running migrations and the rails server, go to localhost:3000/articles
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
